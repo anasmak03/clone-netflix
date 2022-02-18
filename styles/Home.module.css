@@ -1,0 +1,768 @@
+.main{
+  background-image:   linear-gradient(rgba(0, 0, 0, 0.727),rgba(0, 0, 0, 0.8))  ,url("https://assets.nflxext.com/ffe/siteui/vlv3/6dea7743-5586-45d1-89a2-9569b1bb0340/61842499-160a-4014-9e06-96329c18b4ff/MA-en-20220207-popsignuptwoweeks-perspective_alpha_website_small.jpg");;
+
+  height: 120vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
+.img{
+  margin: 40px;
+}
+
+
+.btns{
+  margin: 40px;
+  
+}
+
+
+.btns button{
+  padding:10px 22px;
+  font-weight: 900;
+  text-transform: capitalize;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.btns select{
+  font-weight: 700;
+  padding:10px 30px;
+  margin-right: 20px;
+  color: white;
+  background-color:transparent;
+  cursor: pointer;
+}
+
+.btns option{
+  background-color: grey;
+}
+
+.article{
+  text-align: center;
+  color: #fff;
+}
+.article h1{
+  font-size: 3.12rem;
+  color: #fff;
+
+}
+
+.article h2{
+  font-size: 1.625rem;
+}
+
+.article{
+  padding-top: 24px;
+}
+
+.article input{
+  width: 450px;
+  height: 50px;
+  padding-left: 18px;
+  text-transform: capitalize;
+ 
+}
+
+.article button{
+  width: 190px;
+ height: 50px;
+  font-weight: bolder;
+ cursor: pointer;
+ text-transform: capitalize;
+ background-color: red;
+ color: #fff;
+ border: none;
+
+}
+.article input:focus{
+  outline: none;
+}
+
+.article1{
+  color:#fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #000000;
+  text-align: center;
+  border-top: 0.2px solid grey;
+  border-bottom: 0.2px solid grey;
+}
+.article1 h1{
+  font-size: 40px;
+  text-align: start;
+}
+
+.article1 h2{
+  font-size: 26px;
+  text-align: start;
+
+}
+
+.article2{
+  color:#fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #000000;
+  text-align: center;
+  border-top: 0.2px solid grey;
+  border-bottom: 0.2px solid grey;
+}
+
+.article2 h1{
+  font-size:50px;
+  text-align: start;
+}
+
+.article2 h2{
+  font-size: 26px;
+  text-align: start;
+
+}
+
+
+.article3{
+  color:#fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #000000;
+  text-align: center;
+  border-top: 0.2px solid grey;
+  border-bottom: 0.2px solid grey;
+}
+
+.article3 h1{
+  font-size:50px;
+  text-align: start;
+}
+
+.article3 h2{
+  font-size: 26px;
+  text-align: start;
+
+}
+.image{
+  margin-bottom: 40px;
+}
+
+.article4{
+  color:#fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #000000;
+  text-align: center;
+  border-top: 0.2px solid grey;
+  border-bottom: 0.2px solid grey;
+}
+
+.article4 h1{
+  font-size:50px;
+  text-align: start;
+}
+
+.article4 h2{
+  font-size: 26px;
+  text-align: start;
+
+}
+
+
+.article5{
+  color:#fff;
+  background-color: #000000;
+  height: 100vh;
+  border-top: 0.2px solid grey;
+  border-bottom: 0.2px solid grey;
+}
+
+.article5 h1{
+  font-size: 50px;
+  text-align: center;
+}
+
+.article5 h3{
+  font-size: 19.2px;
+  text-align: center;
+}
+
+.accordio{
+  color: #fff;
+  background-color: #303030;
+
+}
+.AccordionSummary{
+  background-color: #303030;
+  
+ 
+}
+
+.typography{
+  text-align: start;
+  color: #fff;
+  background-color: #303030;
+}
+
+.article5 input{
+  width: 450px;
+  height: 50px;
+  padding-left: 18px;
+  text-transform: capitalize;
+
+}
+
+.article5 button{
+  width: 190px;
+ height: 50px;
+  font-weight: bolder;
+  margin-bottom: 50px;
+ cursor: pointer;
+ text-transform: capitalize;
+ background-color: red;
+ color: #fff;
+
+ border: none;
+
+}
+
+.type{
+  display: flex;
+  justify-content: center;
+}
+.type input:focus{
+  outline: none;
+}
+
+.footer{
+  color:#fff;
+  background-color: #000000;
+  height: 80vh;
+  border-top: 0.2px solid grey;
+  border-bottom: 0.2px solid grey;
+  padding-top: 70px;
+}
+
+.footer a{
+  margin-left: 170px;
+}
+
+.footer a:hover{
+  text-decoration: underline;
+}
+.foorent{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.li{
+  list-style: none;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.li select{
+  background-color: transparent;
+  padding: 12px 30px;
+  color: white;
+}
+
+.li option{
+  color: #fff;
+  background-color: #303030;
+
+}
+@media screen and (max-width:594px) {
+  .img{
+    margin: auto;
+  }
+
+  .btns{
+    margin: auto;
+  }
+  .btns select{
+    margin-right: auto;
+  }
+
+  .navbar{
+    padding-top: 20px;
+  }
+
+  .article button{
+    margin-top: 10px;
+    width: 140px;
+    margin-bottom: 40px;
+  }
+
+  .article1{
+    flex-wrap: wrap;
+  }
+
+  .article1 h1{
+    text-align: center;
+    font-size: 20px;
+  }
+  .article1 h2{
+    text-align: center;
+    font-size: 16px;
+
+  }
+
+  .main{
+    height: auto;
+  }
+
+  .article2{
+    flex-wrap: wrap;
+  }
+
+  .content h1{
+    text-align: center;
+    font-size: 30px;
+  }
+  .content h2{
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .article3{
+    flex-wrap: wrap;
+  }
+
+  .content1 h1{
+    text-align: center;
+    font-size: 30px;
+  }
+  .content1 h2{
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .article4{
+    flex-wrap: wrap;
+  }
+
+  .content2 h1{
+    text-align: center;
+    font-size: 30px;
+  }
+  .content2 h2{
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .type{
+    flex-wrap: wrap;
+  }
+
+  .article5{
+    height: auto;
+  }
+
+  .type input{
+    margin-bottom: 10px;
+  }
+
+  .foorent{
+    flex-wrap: wrap;
+  }
+
+  .footer a{
+    margin: 0 auto;
+    display: block;
+     text-align: center;
+   }
+}
+
+@media screen and (max-width:503px){
+  .img{
+    margin: auto;
+  }
+
+  .btns{
+    margin: auto;
+  }
+  .btns select{
+    margin-right: auto;
+  }
+
+  .navbar{
+    padding-top: 20px;
+  }
+
+  .article h1{
+    font-size: 2rem;
+  }
+  .article{
+    font-size: 0.70rem;
+  }
+
+  .article{
+    padding-top: auto;
+  }
+
+  .article h3{
+    width: 80%;
+    margin-left: 10%;
+  }
+  
+  .article button{
+    margin-top: 10px;
+    width: 140px;
+    margin-bottom: 40px;
+  }
+
+  .article1{
+    flex-wrap: wrap;
+    font-size: 25px;
+  }
+
+  .article1 h1{
+    text-align: center;
+    font-size: 30px;
+  }
+  .article1 h2{
+    text-align: center;
+    font-size: 20px;
+
+  }
+  .main{
+    height: auto;
+  }
+
+  .article2{
+    flex-wrap: wrap;
+  }
+
+  .content h1{
+    text-align: center;
+    font-size: 30px;
+  }
+  .content h2{
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .article3{
+    flex-wrap: wrap;
+  }
+
+  .content1 h1{
+    text-align: center;
+    font-size: 30px;
+  }
+  .content1 h2{
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .article4{
+    flex-wrap: wrap;
+  }
+
+  .content2 h1{
+    text-align: center;
+    font-size: 30px;
+  }
+  .content2 h2{
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .type{
+    flex-wrap: wrap;
+  }
+
+  .article5{
+    height: auto;
+  }
+
+  .type input{
+    margin-bottom: 10px;
+  }
+
+  .foorent{
+    flex-wrap: wrap;
+  }
+
+  .footer a{
+   margin: 0 auto;
+   display: block;
+    text-align: center;
+  }
+}
+
+
+
+@media screen and (max-width:458px){
+  .img{
+    margin: auto;
+  }
+
+  .btns{
+    margin: auto;
+  }
+  .btns select{
+    margin-right: auto;
+  }
+
+  .navbar{
+    padding-top: 20px;
+  }
+
+  .article h1{
+    font-size: 2rem;
+  }
+  .article{
+    font-size: 0.70rem;
+  }
+
+  .article input{
+    width: 250px;
+  }
+
+  .ard{
+    flex-wrap: wrap;
+  }
+
+  .article{
+    padding-top: auto;
+  }
+
+  .article h3{
+    width: 80%;
+    margin-left: 10%;
+  }
+  
+  .article button{
+    margin-top: 10px;
+    width: 140px;
+    margin-bottom: 40px;
+  }
+
+  .article1{
+    flex-wrap: wrap;
+    font-size: 25px;
+  }
+
+  .article1 h1{
+    text-align: center;
+    font-size: 30px;
+  }
+  .article1 h2{
+    text-align: center;
+    font-size: 20px;
+
+  }
+  .main{
+    height: auto;
+  }
+
+  .article2{
+    flex-wrap: wrap;
+  }
+
+  .content h1{
+    text-align: center;
+    font-size: 30px;
+  }
+  .content h2{
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .article3{
+    flex-wrap: wrap;
+  }
+
+  .content1 h1{
+    text-align: center;
+    font-size: 30px;
+  }
+  .content1 h2{
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .article4{
+    flex-wrap: wrap;
+  }
+
+  .content2 h1{
+    text-align: center;
+    font-size: 30px;
+  }
+  .content2 h2{
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .type{
+    flex-wrap: wrap;
+  }
+
+  .article5{
+    height: auto;
+  }
+
+  .type input{
+    margin-bottom: 10px;
+  }
+
+  .foorent{
+    flex-wrap: wrap;
+  }
+
+  .footer a{
+   margin: 0 auto;
+   display: block;
+    text-align: center;
+  }
+}
+
+
+
+@media screen and (max-width:390px){
+  .img{
+    margin: auto;
+  }
+
+  .btns{
+    margin: auto;
+    flex-wrap: wrap;
+  }
+  .btns select{
+    margin-right: auto;
+  }
+    .btns button{
+      margin: 20px;
+    }
+  .navbar{
+    padding-top: 20px;
+  }
+
+  .article h1{
+    font-size: 2rem;
+  }
+  .article{
+    font-size: 0.70rem;
+  }
+
+  .article input{
+    width: 250px;
+  }
+
+  .ard{
+    flex-wrap: wrap;
+  }
+
+  .article{
+    padding-top: auto;
+  }
+
+  .article h3{
+    width: 80%;
+    margin-left: 10%;
+  }
+  
+  .article button{
+    margin-top: 10px;
+    width: 140px;
+    margin-bottom: 40px;
+  }
+
+  .article1{
+    flex-wrap: wrap;
+    font-size: 25px;
+  }
+
+  .article1 h1{
+    text-align: center;
+    font-size: 30px;
+  }
+  .article1 h2{
+    text-align: center;
+    font-size: 20px;
+
+  }
+  .main{
+    height: auto;
+  }
+
+  .article2{
+    flex-wrap: wrap;
+  }
+
+  .content h1{
+    text-align: center;
+    font-size: 30px;
+  }
+  .content h2{
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .article3{
+    flex-wrap: wrap;
+  }
+
+  .content1 h1{
+    text-align: center;
+    font-size: 30px;
+  }
+  .content1 h2{
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .article4{
+    flex-wrap: wrap;
+  }
+
+  .content2 h1{
+    text-align: center;
+    font-size: 30px;
+  }
+  .content2 h2{
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .type{
+    flex-wrap: wrap;
+  }
+
+  .article5{
+    height: auto;
+  }
+
+  .type input{
+    margin-bottom: 10px;
+  }
+
+  .foorent{
+    flex-wrap: wrap;
+  }
+
+  .footer a{
+   margin: 0 auto;
+   display: block;
+    text-align: center;
+  }
+}
